@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Cloud</title>
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="{{ url_for('static', filename='js/d3.wordcloud.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/sample.js') }}"></script>
+
+</html>
